@@ -1,0 +1,14 @@
+/* 
+  InfoPlist.strings
+  Aerocom
+
+  Created by 丁付德 on 15/7/27.
+  Copyright (c) 2015年 dfd. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Aerocom";                      // APP 名称
+"NSBluetoothPeripheralUsageDescription"="访问蓝牙";
+"NSCalendarsUsageDescription"="访问相册";
+"NSCameraUsageDescription"="使用相机";
+"NSLocationWhenInUseUsageDescription"="使用期间访问位置";
+"NSMicrophoneUsageDescription"="访问麦克风";

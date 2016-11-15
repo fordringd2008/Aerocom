@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "6ab86f32-b76a-884f-a4cf-c95884cfd002++505",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "6ab86f32-b76a-884f-a4cf-c95884cfd002++505" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "6ab86f32-b76a-884f-a4cf-c95884cfd002++505" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F38E9273-BEF5-4841-9F56-7E7D26F89046",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "6ab86f32-b76a-884f-a4cf-c95884cfd002++505" : "%E6%96%B0%E5%B7%A5%E7%A8%8B\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Aerocom",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Aerocom.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "http:\/\/192.168.1.117\/svn\/C2_ios",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "6ab86f32-b76a-884f-a4cf-c95884cfd002++505"
+    }
+  ]
+}

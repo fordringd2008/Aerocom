@@ -1,0 +1,193 @@
+/* 
+  Localizable.strings
+  aerocom
+
+  Created by 丁付德 on 15/7/8.
+  Copyright (c) 2015年 dfd. All rights reserved.
+*/
+
+"CFBundleDisplayName" = "Areocom";                        // APP 名称
+"APP名称" ="Areocom";
+"登录成功" ="Log in avec succes";
+"我的花园" ="Mon jardin";
+"用户" ="Utilisateur";
+"系统设置" ="Configuration système";
+"使用帮助" ="Aide à l'utilisation";
+"系统提示" ="Remarque syatème";
+"植物数据有新增，是否获取最新的数据包？（当前网络为2G/3G/4G， 建议在WIFI网络时下载）" ="Mise à jour disponible des données sur plantes, voulez vous télécharger ces données? (Le réseau actuel est 2G/3G/4G, nous vous recommandons de le faire sous WIFI)";
+"植物数据有新增，是否获取最新的数据包？"="Mise à jour disponible des données sur plantes, voulez vous télécharger ces données?";
+"提示" ="Attention";
+"确定要删除该植物？" ="Confirmer la supression de cette plante?";
+"删除成功" ="Supression confirmée";
+"我的新植物" ="Ma nouvelle plante";
+"该植物没有绑定设备？" ="Cette plante n'a pas été connectée？";
+"开启" ="Démarrer";
+"不支持的图片格式" ="Type d'image non compatible";
+"已保存到相册" ="Déjà sauvegardé dans l'album";
+"相册" ="Album";
+"提醒" ="Souligner";
+"历史数据" ="Donnée historique";
+"新增植物" ="Nouvelle plante";
+"室内" ="Intér";
+"室外" ="Extér";
+"花盆" ="Pot";
+"大地" ="DuSol";
+"名称:" ="Nom:";
+"花草分类:" ="Catégorie:";
+"室内/室外:" ="Intér/Extér:";
+"花盆/大地:" ="Vase/Terre:";
+"拍照提醒间隔(天:" ="Faire une photo(Jour):";
+"植物绑定设备:" ="Connecter:";
+"提醒设置:" ="Configurer:";
+"请输入昵称" ="Entrer un nom de favoris";
+"确定" ="Confirmer";
+"取消" ="Annuler";
+"是" ="Oui";
+"否" ="Non";
+"修改头像" ="Modifier le portrait";
+"从相册中选择" ="Choisir dans l'album";
+"拍照" ="Photographier";
+"花草名不能为空" ="Le nom de la plante ne doit pas être vide";
+"修改成功" ="Modifié avec succes";
+"添加成功" ="Ajouté avec succes";
+"没有修改" ="Non modifié";
+"花草分类选择" ="Choisir la catégorie des plantes";
+"花草分类详情" ="Détails de la catégorie des plantes";
+"提醒设置" ="Configurer:";
+"植物绑定" ="Connecter la plante:";
+"使用帮助" ="Aide à l'utilisation";
+"单位" ="Unité";
+"距离" ="Distance";
+"温度" ="Temp";
+"通知时间" ="Temps d'alerte";
+"开始:" ="Début:";
+"结束:" ="Fin:";
+"位置" ="Position";
+"获得系统位置" ="Position";
+"英制" ="Inch";
+"公制" ="Métri";
+"华氏℉" ="Dégré °F";
+"摄氏℃" ="Degré °C";
+"关" ="OFF";
+"开" ="ON";
+"开始" ="Commencer";
+"结束" ="Finir";
+"用户中心" ="Centre Service Client";
+"邮箱" ="Email";
+"更改个人设置" ="Modifier la configuration personalisée";
+"退出登录" ="Se déconnecter";
+"确定退出？" ="Confirmer la déconnexion";
+"个人设置" ="Configue personalisé";
+"男" ="Male";
+"女" ="Femele";
+"地区" ="Région";
+"性别" ="Sexe";
+"身高" ="Taille";
+"体重" ="Poids";
+"出生日期" ="Date de naissance";
+"个人信息更新成功" ="Mise à jour des informations personnels avec succes";
+"账号不存在" ="Ce compte n'existe pas";
+"密码不正确" ="Le code secret est erroné";
+"登录成功" ="Log in avec succes";
+"没有该用户信息" ="Information non trouvé de cet utilisateur";
+"注册" ="Suscription";
+"邮箱格式不正确" ="Le format d'email n'est pas correct";
+"密码不能为空" ="Le code secret ne dois pas être vide";
+"两次输入的不匹配" ="Deux entrés ne sont pas identiques";
+"账号已存在" ="Compte existe déjà";
+"注册成功" ="Suscription réussi";
+"找回密码" ="Retrouver le code secret";
+ "网络异常,请检查网络 " = "Le réseau n'est pas normal, Vérifier votre connection ";
+"光照太强了， 请移到相对阴凉的地方" = "Trop de soleil, veuillez la déplacer dans un endoit sous l'ombre et frais";
+"光照不足， 求帮助" = "Pas assez de soleil, Aidez moi ";
+"温度太低了，  花草扛不住了" = "Température est trop basse, les plantes ne resistent plus";
+"温度相对有点低了" ="La température est relativement basse";
+"温度有点高了" ="La température est relativement hausse";
+"太热了，  受不鸟了" = "Trop Chaud, Imsuportable!";
+"太干燥了，  求浇水" = "Trop Sec, Arosez moi! ";
+"水太多了， 我快喝饱了" = "Trop d'eau, je n'ai plus soif! ";
+"我在使用 《Aerocom》 应用，大家来一起吧 ! " = "Je suis en train d'utiliser l'application <<AEROCOM>>, venez me rejoindre!";
+"用户名" ="Nom d'utilisateur";
+"密码" ="Code secret";
+"确认密码" ="Confirmer le code secret";
+"登录" ="Se connecter";
+"已发送"="A été envoyé";
+"发送"="Envoyer";
+"光照" ="Ens";
+"湿度" ="Hum";
+"邮箱格式不正确" ="Le format d'email n'est pas correct";
+"搜索"="De recherche";
+"我的相机"="De la caméra";
+"月"="Mois";
+"年"="Année";
+"光照提醒"="La lumière de rappel";
+"温度提醒"="La température de rappel";
+"湿度提醒"="Rappel de l'humidité";
+"时间"="Le temps";
+"全选"="Tout sélectionner";
+"删除"="Supprimer";
+"用户名和密码不能为空"="Pas de nom d'utilisateur et mot de passe pour le vide";
+"您好久没给植物拍照了"="On n'a pas de photos de plantes";
+"1月"="Janvier";
+"2月"="Février";
+"3月"="Mars";
+"4月"="Si.";
+"5月"="Mai";
+"6月"="Juin";
+"7月"="Juillet";
+"8月"="Août";
+"9月"="Septembre";
+"10月"="Octobre";
+"11月"="Novembre";
+"12月"="Décembre";
+"是否删除该植物？"="Si la suppression de cette plante?";
+"删除选中的图片？"="Supprimer la photo?";
+"该植物已经被绑定了"="Cette plante a été lié.";
+"花草分类必须选择"="Les fleurs de classification doit choisir";
+"正在更新 ..."="Chargement ...";
+"发送成功"="Transmis avec succès";
+"正在更新植物数据"="Synchro";
+"一月"="Janvier";
+"二月"="Février";
+"三月"="Mars";
+"四月"="Avril";
+"五月"="Mai";
+"六月"="Juin";
+"七月"="Juillet";
+"八月"="Août";
+"九月"="Septembre";
+"十月"="Octobre";
+"十一月"="Novembre";
+"十二月"="Décembre";
+"请在“设置-隐私-照片“选项中,允许Aerocom访问你的照片"="S'il vous plaît, dans la protection de la vie privée est - - photo “option permet d'accéder à vos photos Sénégal";
+"请在“设置-隐私-相机“选项中,允许Aerocom访问你的相机"="S'il vous plaît, dans ”disposé - la vie privée - caméra“ option, la caméra permet de Sénégal de votre visite";
+"正在加载"="Chargement";
+"保存成功"="Sauvé avec succès";
+"欢迎使用爱乐康守望者产品，现在开始，你的盆栽我们会帮您看护........"="Bienvenue à l'intelligence des partenaires, maintenant commencer à travailler de fleurs et de s'occuper de vous à moi!L'attrape - cœurs opportun de vous dire le leur demande, n'oublie pas, rentre à la maison tous les jours et j'ai serré la main!";
+"天"="jours";
+"光照太强"="La lumière est trop forte";
+"光照不足"="Le manque de lumière";
+"温度太低"="La température est trop faible";
+"温度有点低"="La température est faible";
+"温度有点高"="La température est un peu élevée";
+"温度太高"="La température est trop élevée";
+"缺水"="La pénurie d'eau";
+"水太多"="Trop d'eau";
+"绑定"="Liaison";
+"解绑"="Annuler";
+//""="";
+//""="";
+//""="";
+//""="";
+//""="";
+//""="";
+
+
+
+
+
+
+
+
+
+

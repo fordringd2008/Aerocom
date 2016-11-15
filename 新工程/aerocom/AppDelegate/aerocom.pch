@@ -1,0 +1,46 @@
+//
+//  aerocom.pch
+//  aerocom
+//
+//  Created by 丁付德 on 15/6/29.
+//  Copyright (c) 2015年 dfd. All rights reserved.
+//
+
+#ifndef aerocom_aerocom_pch
+#define aerocom_aerocom_pch
+
+#import "dConfig.h"
+#import "UIImageView+WebCache.h"
+#import "MBProgressHUD+Add.h"
+#import "UIViewController+Delay.h"
+#import "NSObject+userDefault.h"
+#import "NSObject+userInfo.h"
+#import "UIFont+AppFont.h"
+#import "UIImage+LogN.h"
+#import "NSObject+Delay.h"
+#import "TAlertView.h"
+#import "NSTimer+stop.h"
+#import "NSString+Verify.h"
+#import "NetManager.h"
+
+#import "LSNavigationController.h"
+
+#define MR_SHORTHAND
+#import <MagicalRecord/MagicalRecord.h>
+#import <MagicalRecord/MagicalRecord+ShorthandMethods.h>
+#import <MagicalRecord/MagicalRecordShorthandMethodAliases.h>
+#import <CocoaLumberjack/CocoaLumberjack.h>
+#import "BLEHeader.h"
+#import "SyncDate.h"
+#import "FlowerData.h"
+#import "UserInfo.h"
+#import "FlowerType.h"
+#import "NetTool.h"
+#import "Per.h"
+#import "SystemSettings.h"
+#import "Album.h"
+#import "Remind.h"
+
+
+
+#endif

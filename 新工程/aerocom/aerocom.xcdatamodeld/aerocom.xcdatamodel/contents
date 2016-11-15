@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="15A284" minimumToolsVersion="Xcode 4.3">
+    <entity name="Album" representedClassName="Album" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="datetime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flowerID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="imgID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="imgName" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="County" representedClassName="County" syncable="YES">
+        <attribute name="countyID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="countyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="writeTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="states" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="State" inverseName="county" inverseEntity="State" syncable="YES"/>
+    </entity>
+    <entity name="FlowerData" representedClassName="FlowerData" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alarm_set" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bind_device_mac" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bind_device_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="camera_alert" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isUpdate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="last_photo_time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="my_plant_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="my_plant_id_T" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="my_plant_latitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="my_plant_longitude" optional="YES" attributeType="Double" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="my_plant_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="my_plant_pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="my_plant_pot" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="my_plant_room" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="plant_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="FlowerType" representedClassName="FlowerType" syncable="YES">
+        <attribute name="descript" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="icon" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="iD" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="light" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="light_highest_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="light_lowest_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="otherName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="scientificname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soli" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="startLetter" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temp4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="temperature" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="temperatureHeight" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="temperatureHeightEST" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="temperatureLow" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="temperatureLowEST" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="NetTool" representedClassName="NetTool" syncable="YES">
+        <attribute name="dateTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flower_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isFinish" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_id" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Remind" representedClassName="Remind" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alarm_sub_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="alarm_type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flower_Id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isShow" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="k_date" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="remindDate" optional="YES" attributeType="Date" syncable="YES"/>
+    </entity>
+    <entity name="State" representedClassName="State" syncable="YES">
+        <attribute name="language" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="stateID" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="stateName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="writeTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="county" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="County" inverseName="states" inverseEntity="County" syncable="YES"/>
+    </entity>
+    <entity name="SyncDate" representedClassName="SyncDate" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="ambient_temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="count" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="dateValue" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="day" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="light" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="mean_ambienttem" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mean_light" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mean_solimois" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="mean_solitem" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="month" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="my_plant_id" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="score" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="soil_moisture" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="soli_temperature" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sub" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="year" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="SystemSettings" representedClassName="SystemSettings" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="getAddress" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isUpload" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sys_distance_unit" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="sys_notify_time_end" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sys_notify_time_start" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="sys_temperature_unit" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfo" syncable="YES">
+        <attribute name="access" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="distanceSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="file_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="help_pic_update_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="imageData" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="imageType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="info_end" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="info_start" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="isUpate" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="moblie" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="my_plant_update_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="password" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="plant_data_max_version" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="temperatureSwitch" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="update_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_birthday" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="user_city_code" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_country_code" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_gender" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="user_height" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_info_update_time" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_nick_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_pic_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="user_state_code" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="user_weight" optional="YES" attributeType="Double" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Album" positionX="0" positionY="171" width="128" height="120"/>
+        <element name="County" positionX="0" positionY="171" width="128" height="120"/>
+        <element name="FlowerData" positionX="27" positionY="216" width="128" height="345"/>
+        <element name="FlowerType" positionX="0" positionY="171" width="128" height="345"/>
+        <element name="NetTool" positionX="18" positionY="189" width="128" height="120"/>
+        <element name="Remind" positionX="9" positionY="180" width="128" height="165"/>
+        <element name="State" positionX="9" positionY="180" width="128" height="120"/>
+        <element name="SyncDate" positionX="0" positionY="198" width="128" height="315"/>
+        <element name="SystemSettings" positionX="0" positionY="171" width="128" height="165"/>
+        <element name="UserInfo" positionX="-27" positionY="18" width="128" height="435"/>
+    </elements>
+</model>

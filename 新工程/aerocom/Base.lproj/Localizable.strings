@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  aerocom
+
+  Created by 丁付德 on 15/7/8.
+  Copyright (c) 2015年 dfd. All rights reserved.
+*/
+
+//  这个没什么用
+
+"CFBundleDisplayName" = "爱乐康数码";                      // APP 名称
